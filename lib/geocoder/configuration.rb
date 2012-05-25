@@ -85,7 +85,7 @@ module Geocoder
       @always_raise = []
 
       # calculation options
-      @units     = :mi     # :mi or :km
+      @units     = :km     # :mi or :km
       @distances = :linear # :linear or :spherical
     end
 
